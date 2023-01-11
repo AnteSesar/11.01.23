@@ -5,12 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        form{
+            border: 3px solid #f1f1f1;
+        }
+        img.avatar{
+            width: 40%;
+            border-radius: 50%;
+        }
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button{
+            background-color: #04AA6D;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <h2>Login Forma</h2>
     <form action="/action_page.php" method="post">
         <div>
-            <img src="./img/top_hat.jpg" alt="Avatar">
+            <img src="./img/005.jpg" alt="Avatar" class="avatar">
         </div>
         <div>
             <label for="uname"><b>Korisničko ime</b></label>
