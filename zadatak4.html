@@ -74,7 +74,7 @@
 </head>
 <body>
     <form action="/action_page.php" style="border: 1px solid #ccc;">
-        <div>
+        <div class="container">
             <h1>Forma za prijavu</h1>
             <p>Molimo unesite podatke u formu za kreiranje novog računa.</p>
             <hr>
@@ -89,14 +89,14 @@
             <input type="password" placeholder="Ponovite lozinku" name="psw-repeat" required>
 
             <label>
-                <input type="checkbox" checked name="remember"> Zapamti me
+                <input type="checkbox" checked name="remember" style="margin-bottom: 15px;"> Zapamti me
             </label>
 
-            <p>Prilikom kreiranja računa pristajete na naše <a href="#">Uvijete korištenja</a>.</p>
+            <p>Prilikom kreiranja računa pristajete na naše <a href="#" style="color: dodgerblue;">Uvijete korištenja</a>.</p>
 
-            <div>
-                <button type="button">Odustani</button>
-                <button type="submit">Prijava</button>
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Odustani</button>
+                <button type="submit" class="signupbtn">Prijava</button>
             </div>
         </div>
     
